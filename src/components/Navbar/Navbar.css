@@ -1,0 +1,18 @@
+a {
+  color: #111;
+  border-bottom: 1px solid #fff;
+}
+a:hover {
+  border-bottom: 1px solid #111;
+}
+
+@media all and (max-width: 426px) {
+  .logoToHide {
+    display: block;
+  }
+}
+@media all and (min-width: 768px) {
+  .logoToHide {
+    display: none;
+  }
+}

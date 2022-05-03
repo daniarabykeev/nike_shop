@@ -1,0 +1,57 @@
+.pre-logo-svg {
+  width: 60px;
+  margin-left: 5vw;
+}
+.jordan {
+  width: 24px;
+}
+.header_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+}
+.header_bottom_2 {
+  min-height: 60px;
+  background: rgb(245, 245, 245);
+}
+.header_icons {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  margin-right: 5vw;
+}
+
+.header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 36px;
+}
+a {
+  text-decoration: none;
+}
+.header_top_bg {
+  background: rgb(245, 245, 245);
+}
+
+.cart:hover {
+  background-color: rgb(214, 208, 208);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.heart:hover {
+  background-color: rgb(214, 208, 208);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+@media all and (max-width: 426px) {
+  .bigLogoToHide {
+    display: none;
+  }
+  .header_icons {
+    display: none;
+  }
+}
